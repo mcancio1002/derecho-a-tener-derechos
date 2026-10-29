@@ -319,7 +319,7 @@ with col_izq:
  key=f"quiz_{indice}"
  )
  if st.button(
- "Comprobar respuesta",
+  "Comprobar respuesta",
  type="primary",
  use_container_width=True
  ):
