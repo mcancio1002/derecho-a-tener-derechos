@@ -324,7 +324,7 @@ with col_izq:
  use_container_width=True
  ):
  if seleccion is None:
- st.warning("Selecciona una opción antes de comprobar.")
+  st.warning("Selecciona una opción antes de comprobar.")
  elif seleccion == derecho["correcta"]:
  st.success(
  "La respuesta es adecuada. Ahora considera qué otras "
