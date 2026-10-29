@@ -322,7 +322,7 @@ with col_izq:
  "Comprobar respuesta",
  type="primary",
  use_container_width=True
- )
+ ):
  if seleccion is None:
  st.warning("Selecciona una opción antes de comprobar.")
  elif seleccion == derecho["correcta"]:
